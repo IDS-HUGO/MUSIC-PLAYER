@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <title>MUSIC PLAYER</title>
+</head>
+<body>
+  <div id="title">MUSIC PLAYER DE: HUGO FRANCISCO LUIS INCLAN</div>
+<br><br><br><br><br><br>
+  <div class="container">
+    <audio></audio>
+    <h2>MUSIC:</h2>
+    <h1></h1>
+    <div id="current_time">0:00</div>
+
+    <div class="buttons">
+      <button id="prev">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next">
+        <i class="fas fa-forward"></i>
+      </button>
+    </div>
+    <div id="current_audio"></div>
+
+    <div class="progress_container">
+      <div id="progress"></div>
+    </div>
+
+  </div>
+<br>
+  <div id="footer">
+    <h1>
+      ©HUGO FRANCISCO LUIS INCLAN 2024 Music Player Inc. DERECHOS RESERVADOS. UNIVERSIDAD POLITECNICA DE CHIAPAS.
+    </h1>
+  </div>
+
+  <script type="module" src="./src/controllers/index.js"></script>
+</body>
+</html>
